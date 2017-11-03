@@ -1,18 +1,31 @@
-﻿table{
-border: 1px solid black;
-border-collapse: collapse;
+﻿
 
-}
+table{
+ border: 1px solid black;
+ border-collapse: collapse;
+ 
+ }
+ 
+ td,th{
+ border: 1px solid black;
+ }
+ td,th{
+ padding:15px;
+ }
+  img{ margin: 5%;
+ 
+ }
+ body{
+ background:LightPink;
+ } 
 
-td,th{
-border: 1px solid black;
+body {
+  background-color:LightPink;
 }
-td,th{
-padding:15px;
+#c {
+  opacity:.8;
 }
- img{ margin: 5%;
-
-}
-body{
-background:LightPink;
+canvas {
+  position:absolute;
+  top:0; left:0;
 }
